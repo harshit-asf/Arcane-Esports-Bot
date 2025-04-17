@@ -1,0 +1,1 @@
+if [[ -d .git ]] && [[ 1 == "1" ]]; then git pull; fi; cd /home/container; dotnet restore; dotnet run --project
