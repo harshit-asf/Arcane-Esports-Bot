@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 import datetime
 import os
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('MTM2MjExNzAyMTcyMjA4NzQyNA.GQkZtI.y8CuChv_-Z3jPVo1084-zP7Yaf_znRej1D2B6g')
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True
